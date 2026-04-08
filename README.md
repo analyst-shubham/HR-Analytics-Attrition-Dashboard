@@ -4,7 +4,7 @@ Overview
 This project explores employee attrition using Power BI. The focus is to understand where attrition is happening the most and what factors (like salary, role, experience, etc.) are influencing it.
 
 Dashboard Preview
-![Dashboard Preview](images/dashboar_preview.jpg)
+![Dashboard Preview](images/dashboard_preview.jpg)
 
 Objective
 
