@@ -1,35 +1,54 @@
-# HR Analytics Dashboard – Employee Attrition Analysis
+# HR Analytics - Employee Attrition Analysis.
 
-## Dashboard Preview  
-![Dashboard Preview](images/dashboard_preview.jpg)
+An interactive Power BI dashboard analyzing employee attrition 
+patterns across departments, salary bands, age groups, and 
+job satisfaction levels.
 
+## Dashboard Preview
+![Dashboard Preview](images/dashboard-preview.png)
 
-## Overview  
-This project explores employee attrition using Power BI. The focus is to understand where attrition is happening the most and what factors (like salary, role, experience, etc.) are influencing it.
+## Project Overview
+Analyzed HR data of 1,470+ employees to identify key drivers 
+of attrition, helping HR teams prioritize retention strategies 
+across departments and job roles.
 
----
+## Tech Stack
+- **Power BI Desktop** — Dashboard & visualizations.
+- **DAX** — Measures and calculated columns.
+- **Excel** — Source data (HR_raw_data)
 
-## Objective  
-- Study employee attrition patterns.
-- Identify key drivers behind employee turnover. 
-- Present insights in a simple and interactive dashboard.  
+## Key Features
+- Attrition Rate KPI with department-level drill-through.
+- Attrition breakdown by Salary, Job Role, Age & Education
+- Job Satisfaction Rating matrix by Job Role
+- Attrition by Years at Company trend analysis
+- Gender split and demographic KPI cards
+- Dynamic department filter (HR / R&D / Sales)
+- Built-in Insights panel with key findings
 
----
+## Files
+| File | Description |
+|------|-------------|
+| `HR_Analytics_Employee_Attrition_Analysis.pbix` | Main Power BI file |
+| `HR_raw_data.xlsx` | In Data folder- Source Excel data |
+| `dashboard-preview.jpg` | In Images folder -  Dashboard screenshot |
 
-## Tools Used  
-- Power BI.
-- PowerQuery 
-- Excel.
+## DAX Measures Created
+- `Attrition Rate` — Attrition Count / Total Employees
+- `Total Attrition` — Count of Yes in Attrition column
+- `Total Employees` — Count of all employees
+- `Average Age` — Average of Age column
+- `Average Salary` — Average of MonthlyIncome
 
----
+## Key Insights
+- Overall attrition rate is **16.1%** — above healthy 10-12% benchmark.
+- Employees earning **below $5K** account for 163 of 237 attritions (~70%).
+- **Laboratory Technician & Sales Executive** roles have highest churn at 62 and 57.
+- **1-2 years tenure** employees are most at risk — classic early exit pattern.
+- **26-35 age group** drives 116 attritions — highest of any age band.
+- **Life Sciences (38%)** and **Medical (27%)** education fields show most attrition.
+- Employees with **Job Satisfaction rating 1** show significantly higher exits.
+- **R&D department** has most attrition volume due to largest headcount.
 
-## Key Insights  
-- Employees with salary below 5k show the highest attrition.
-- Laboratory Technician and Sales Executive roles have the highest churn. 
-- Employees with 1–2 years of experience are more likely to leave.  
-- Attrition is highest in the 26–35 age group.  
-
----
-
-## Business Impact  
-Insights from this dashboard can help HR teams understand attrition patterns and take better decisions to improve employee retention.
+## Author
+Shubham Kumar Bhakta
